@@ -10,7 +10,7 @@
 
     sudo -u postgres psql -c "ALTER USER NAMEOFMYUSER PASSWORD 'HEREMYPASSWORD';"
     
-**Grant all privileges on Database to a Specific User **
+**Grant all privileges on Database to a Specific User**
 
     sudo -u postgres psql -c "grant all privileges on database NAMEOFMYDB to NAMEOFMYUSER;"
 
